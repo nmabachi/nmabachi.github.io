@@ -79,7 +79,7 @@ hr {
   padding-bottom: 15px;
 }
 
-.projects a, .projects a:link, .projects a:visited {
+.projects a, .projects a:link, .projects a:visited, .projects a:hover {
   text-decoration: none;
 }
 
