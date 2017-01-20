@@ -46,7 +46,7 @@ hr {
   background-position: center center;
   background-size: cover;
   padding-top: 250px;
-  min-height: 650px;
+  min-height: 725px;
   width: 100%;
 }
 
@@ -79,9 +79,14 @@ hr {
   padding-bottom: 15px;
 }
 
+.projects a, .projects a:link, .projects a:visited {
+  text-decoration: none;
+}
+
 .contact {
   padding-bottom: 15px;
 }
+
 
 .contact a, .contact a:link, .contact a:visited {
   color: #555;
@@ -98,6 +103,9 @@ footer {
 }
 
 @media screen and (max-width:769px) {
+  .home {
+    min-height: 500px;
+  }
   .home h1 {
     font-size: 80px;
   }
