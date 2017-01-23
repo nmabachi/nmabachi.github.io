@@ -1,0 +1,115 @@
+html, body {
+  height: 100%;
+  font-family: "Lato", "Arial", sans-serif !important;
+}
+
+body {
+  font-weight: 300;
+  color: #555 !important;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+hr {
+  width: 70%;
+}
+
+p {
+  margin-bottom: 30px;
+  line-height: 28px;
+}
+
+header {
+  height: 100%;
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header-text {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-40%, -30%);
+}
+
+.logo {
+  height: 30px;
+}
+
+.navbar-toggle {
+  border-color: #555 !important;
+}
+
+.icon-bar {
+  background-color: #555 !important;
+}
+
+.navbar-brand {
+  padding-top: 10px !important;
+}
+
+.navbar.scrolled {
+    background: rgba(233, 232, 230, 0.78); //NON-IE
+}
+
+.navbar-nav li {
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+.navbar-nav li a {
+  padding-bottom: 5px !important;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-nav li a:link, .navbar-nav li a:visited {
+  color: #555;
+  text-decoration: none;
+  transition: border-bottom 0.3s;
+}
+
+@media screen and (min-width: 767px) {
+  .navbar-nav li a:hover {
+    background-color: transparent !important;
+    text-decoration: none;
+    border-bottom: 2px solid #555;
+  }
+  .navbar-nav li a:focus {
+    background-color: transparent !important;
+  }
+}
+
+.landing-title {
+  margin: 0;
+  font-family: "Lobster", sans-serif;
+  font-weight: 300;
+  font-size: 300%;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+.landing-sub {
+  text-align: right;
+  font-weight: bold;
+}
+
+#projects, #about, #contact {
+  margin: 70px 0;
+}
+
+.project-icon {
+  height: 70px;
+  transition: height 0.5s;
+}
+
+.project:hover .project-icon{
+  height: 100px;
+}
+
+#contact a, #contact a:hover {
+  text-decoration: none;
+  margin: 0 15px;
+}
